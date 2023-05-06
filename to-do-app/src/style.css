@@ -1,0 +1,48 @@
+.form-container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 250px;
+}
+
+.dadosArray{
+    background-color: #eeee;
+    height: 100px;
+    width: 270px;
+    padding: 20px;
+    border-radius: 20px;
+    gap: 5px;
+}
+
+.container-principal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.linha{
+    background-color: black;
+    width: 100%;
+    padding: 0.3px;
+}
+
+.task{
+    padding: 5px;
+    
+}
+
+.task-principal{
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon-delete{
+    cursor: pointer;
+}
+
+.container-task{
+    display: flex;
+    justify-content: center;
+}
